@@ -13,7 +13,7 @@ $ Rails db:create
 ```bash
 $ rails s
 ```
-* **Environment variables***
+* **Environment variables**  
 To run the app '.env' file is required at root directory of app for credentials. Create '.env' file with below variables.
 ```bash
 ZYPE_APP_KEY = ''
