@@ -13,6 +13,14 @@ $ Rails db:create
 ```bash
 $ rails s
 ```
+* **Environment variables***
+To run the app '.env' file is required at root directory of app for credentials. Create '.env' file with below variables.
+```bash
+ZYPE_APP_KEY = ''
+ZYPE_CLIENT_ID = ''
+ZYPE_CLIENT_SECRET =''
+```
+
 ## High level architecture overview
 
 * When user hits the root url 'localhost:3000' the request will go to the HomeController index action.
